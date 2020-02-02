@@ -65,9 +65,9 @@ Python Collection
 3. Set
 4. Dictionary
 '''
-
-py_list=[98,2,100,5,1,4,6,3]
-print(type(py_list))
+# List
+# py_list=[98,2,100,5,1,4,6,3]
+# print(type(py_list))
 # print(py_list)
 # print(py_list[4])
 # print(py_list[2:6])
@@ -81,3 +81,92 @@ print(type(py_list))
 # py_list.pop(4)  # remove from index 4
 # del py_list[2] # delete 2th index element
 # print(py_list)
+
+
+#Tuple
+#** we can't change the values of tuple 
+#** But using type casting we can change the values
+# py_tuple=("Tom", "Duke", "Harry")
+# print(type(py_tuple))
+# tuple_list=list(py_tuple)
+# print(py_tuple)
+# print(tuple_list)
+# tuple_list[1]="John"
+# print(tuple_list)
+# py_tuple=tuple(tuple_list)
+# print(py_tuple)
+
+#Set
+# py_set={23, 3,10,40,11,10,60,5,2,1,2,3,4,100, 4, 23}
+# print(type(py_set))
+# print(len(py_set))
+# print(py_set)
+
+#Dictionary
+# py_Dict={
+#     "Name": "Jack",
+#     "CLass": "4",
+#     "Marks": 80,
+#     "RollNo": 5
+# }
+
+# print(type(py_Dict))
+# print(py_Dict)
+# print(len(py_Dict))
+
+
+# conditional operator
+
+# age= input("Enter your age: ")
+# age=18
+# print(age)
+
+# if(age>18):
+#     print("I am above 18")
+# elif (age==18):
+#     print("I am 18")
+# else:
+#     print("I am below 18")
+
+#Loop
+# for i in range(0,1000):
+#     print(i)
+
+# li=[1, 22, "list"]
+# for item in li:
+#     print(item)
+
+# i=0
+# while(i<100):
+#     i=i+1
+#     if i==78:
+#         break  #continue
+#     print(i+1)
+
+# Functions
+# def myFunction():
+#     print("Good Afternoon Buddy")
+#     print("Hi, Buddy")
+#     print("How are You")
+
+# myFunction()
+
+# def sum(a,b):
+#     print("Inside sum function")
+#     return a+b
+
+# print(sum(4,8))
+
+# Class
+
+# class Employee:
+#     def __init__(self,name,salary):
+#         self.name=name
+#         self.salary=salary
+
+
+# harry = Employee("Harry","500")
+
+# print(type(harry))
+# print(harry.name)
+# print(harry.salary )
